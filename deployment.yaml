@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: simpleweb
-          image: harbor.default.svc.cluster.local/simple-web:latest
+          image: harbor.default.svc.cluster.local/ogcio/simple-web:1.0
           ports:
             - containerPort: 80
