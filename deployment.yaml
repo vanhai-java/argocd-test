@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: simpleweb
-          image: yeasy/simple-web:latest
+          image: harbor.default.svc.cluster.local/simple-web:latest
           ports:
             - containerPort: 80
