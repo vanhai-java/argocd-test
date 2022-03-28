@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: simpleweb
-          image: yeasy/simple-web:latest
+          image: yeasy/simple-web:2.0
           ports:
             - containerPort: 80
